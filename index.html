@@ -18,118 +18,157 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+    <div class="min-vh-100 d-flex justify-content-between aling-items-between flex-column ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid ">
+            <a class="navbar-brand px-4" href="#">Pinturas.com</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-3">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-3">
                         <a class="nav-link active" aria-current="page" href="#">Features</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-3">
                         <a class="nav-link active" aria-current="page" href="#">Pricing</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Disabled</a>
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="#">info</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="d-flex justify-content-evenly" >
-        <div >
-            <img src="img/paisaje.png" class="rounded mx-auto d-block" style="height: 420px;" alt="...">
-        </div>
-        <div class="overflow-scroll" style="height: 320px;" class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white" style="width: 380px;">
-            <a href="/"
-                class="d-flex align-items-center flex-shrink-0 p-3 link-dark text-decoration-none border-bottom">
-                <svg class="bi me-2" width="30" height="24">
-                    <use xlink:href="#bootstrap" />
-                </svg>
-                <span class="fs-5 fw-semibold">List group</span>
-            </a>
-            <div class="list-group list-group-flush border-bottom scrollarea">
-                <a href="#" class="list-group-item list-group-item-action active py-3 lh-tight" aria-current="true">
-                    <div class="d-flex w-100 align-items-center justify-content-between">
-                        <strong class="mb-1">List group item heading</strong>
-                        <small>Wed</small>
-                    </div>
-                    <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
-                    <div class="d-flex w-100 align-items-center justify-content-between">
-                        <strong class="mb-1">List group item heading</strong>
-                        <small class="text-muted">Tues</small>
-                    </div>
-                    <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
-                    <div class="d-flex w-100 align-items-center justify-content-between">
-                        <strong class="mb-1">List group item heading</strong>
-                        <small class="text-muted">Mon</small>
-                    </div>
-                    <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.
-                    </div>
-                </a>
-
-                <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
-                    <div class="d-flex w-100 align-items-center justify-content-between">
-                        <strong class="mb-1">List group item heading</strong>
-                        <small class="text-muted">Wed</small>
-                    </div>
-                    <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
-                    <div class="d-flex w-100 align-items-center justify-content-between">
-                        <strong class="mb-1">List group item heading</strong>
-                        <small class="text-muted">Tues</small>
-                    </div>
-                    <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.
-                    </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
-                    <div class="d-flex w-100 align-items-center justify-content-between">
-                        <strong class="mb-1">List group item heading</strong>
-                        <small class="text-muted">Mon</small>
-                    </div>
-                    <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.
-                    </div>
-                </a>
+    <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
+        <div class="col-12 sm-2 col-md-12 col-lg-6">
+            <div class="card">
+                <img src="img/VanGogh.jpg" class="img-fluid"  alt="...">
             </div>
-            <div>
-                <button class="btn btn-primary" type="submit">Button</button>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6">
+            <div class="card bg-dark text-light">
+                <div class="card-body">
+                    <div>
+                        <h2 class="card-title">La noche estrellada</h2>
+                    </div>
+                    <div class="overflow-auto" style="height: 23.35rem;">
+                        
+                        <p class="card-text">La noche estrellada fue pintada por Van Gogh durante el día en el estudio 
+                        de la planta baja del manicomio de Saint-Paul-de Mausole. La vista ha sido identificada como 
+                        la de la ventana de su dormitorio, orientada al este, una vista de la que Van Gogh pintó variaciones. 
+                        [cita requerida] "A través de la ventana con barrotes de hierro", le escribió a su hermano, Theo, 
+                        alrededor del 23 de mayo de 1889, "puedo ver un cuadrado de trigo cerrado (...) sobre el cual, por 
+                        la mañana, veo salir el sol en todo su esplendor (...)".
+                        </p>
+                        <p class="card-text">Van Gogh representó la vista en diferentes momentos del día , incluido el amanecer, 
+                            la salida de la luna, los días llenos de sol, los días nublados, los días ventosos y un día con 
+                            lluvia. Si bien el personal del hospital no permitió que Van Gogh pintara en su dormitorio, allí 
+                            pudo hacer bocetos en tinta o carboncillo sobre papel; eventualmente, basaría variaciones más nuevas 
+                            en versiones anteriores. El elemento pictórico que une todas estas pinturas es la línea diagonal 
+                            procedente de la derecha que representa las colinas bajas y onduladas de las montañas Alpilles. 
+                            En varias versiones, los cipreses son visibles más allá de la pared del fondo que encierra el campo de trigo. 
+                            Van Gogh amplió la vista en seis de estas pinturas, sobre todo en F717 Campo de trigo con cipreses y La noche estrellada, 
+                            que acercan los árboles al plano de la imagen.
+                        </p>
+                        <p class="card-text">Una de las primeras pinturas de la vista fue F611 Paisaje montañoso detrás de Saint-Rémy, 
+                            ahora en Copenhague. Van Gogh hizo varios bocetos para esta pintura, del cual destaca F1547 El campo de 
+                            trigo cerrado después de una tormenta. No está claro si la pintura se hizo en su estudio o en el exterior. 
+                            En su carta del 9 de junio que lo describe, menciona que había estado trabajando al aire libre durante unos días.
+                            Van Gogh describió el segundo de los dos paisajes, en el cual estaba trabajando en una carta a su hermana Wil 
+                            el 16 de junio de 1889. Este es F719 trigal verde con cipreses, ahora en Praga, y la primera pintura en el 
+                            asilo que definitivamente pintó al aire libre. F1548 Campo de trigo, Saint-Rémy de Provence, ahora en Nueva York, 
+                            es un estudio para él. Dos días después, Vincent le escribió a Theo que había pintado "un cielo estrellado".
+                        </p>
+                        <p class="card-text">La noche estrellada es el único nocturno de la serie de vistas desde la ventana de su dormitorio. 
+                            A principios de junio, Vincent le escribió a Theo: "Esta mañana vi el campo desde mi ventana mucho antes del amanecer 
+                            sin nada más que la estrella de la mañana, que se veía muy grande". Los investigadores han determinado que Venus 
+                            era visible al amanecer en Provenza en la primavera de 1889, y en ese momento era casi tan brillante como era posible. 
+                            Entonces, la "estrella" más brillante en la pintura, justo a la derecha del ciprés, es en realidad Venus.
+                        </p>
+                        <p class="card-text">La Luna es estilizada. Registros astronómicos indican que en realidad estaba menguando gibosa en el 
+                            momento que Van Gogh pintó el cuadro,13 e incluso si la fase de la Luna hubiera sido cuarto menguante en el momento, 
+                            la Luna de Van Gogh no habría sido astronómicamente correcta. El único elemento pictórico que definitivamente no era 
+                            visible desde el cuarto de Van Gogh es el pueblo,20 que se basa en un boceto F1541v realizado en una ladera sobre el 
+                            pueblo de Saint-Rémy.3 Pickvance pensó que F1541v se hizo más tarde, el campanario más neerlandés que provenzal, una 
+                            característica de varias pinturas y dibujos de Van Gogh en su período de Nuenen, y por lo tanto, la primera de sus " 
+                            reminiscencias del norte" que iba a pintar y dibujar a principios del año siguiente.1 Hulsker pensó que un paisaje 
+                            en el reverso F1541r también era un estudio para la pintura.
+                        </p>
+                    </div>
+                    <div class="row aling-items-center justify-content-center">
+                        <div class="col-sm-8 py-3" style="font-size: 2rem; color: purple;">
+                            <i class="fab fa-github px-3"></i>
+                            <i class="fab fa-facebook-f px-3"></i>
+                            <i class="fab fa-skype px-3"></i>
+                            <i class="fab fa-twitch px-3"></i>
+                        </div>
+                        <div class="col p-4" >
+                            <button class="btn" style="background-color: purple; color: white;" type="submit">Siguenos</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <nav class="row">
-                <p class="col-3 text-reset text-uppercase d-flex align-items-center">
+
+    <footer class="bg-dark text-light ">
+
+        <div class="container-fluid ">
+
+            <div class="row p-2 justify-content-between">
+
+                <div class="col-xs-12 col-md-6 col-lg-3 pt-5 px-5">
+                    <p class="h5">Copyright &copy; web coding pro. all</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 pt-3 px-5">
+                    <p class="h5">Social networks</p>
+                    <div>
+                        <a class="text-decoration-none p-3" href="#">
+                            <i class="fab fa-facebook-f "></i>
+                        </a>
+                        <a class="text-decoration-none px-3" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-decoration-none px-3" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-decoration-none px-3" href="#">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 pt-3 px-5">
+                    <p class="h5">Resource</p>
+                    <div class="mb-2">
+                        <a class="text-light text-decoration-none" href="#" >Link 1</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-light text-decoration-none" href="#" >Link 2</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- <div class="container-fluid">
+            <nav class="row row-cols-1 row-xm-1 row-cols-md-2   col-md-12 col-lg-12 justify-content-between">
+                <p class="col-1 text-reset text-uppercase d-flex align-items-start px-5">
                     Copyright &copy; web coding pro. all
                 </p>
-                <ul class="col-3 list-unstyled">
-                    <li class="font-weight-bold text-uppercase">Resource</li>
-                    <li><a href="#" class="text-reset">Link 1</a></li>
-                    <li><a href="#" class="text-reset">Link 2</a></li>
-                    <li><a href="#" class="text-reset">Link 3</a></li>
-                </ul>
-
-                <ul class="col-3 list-unstyled">
+                <ul class="col-3 list-unstyled px-5">
                     <li class="font-weight-bold text-uppercase">Social networks</li>
-                    <li class="d-flex justify-content-between">
+                    <li class="d-flex justify-content-around">
                         <a href="#" class="text-reset">
-                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f "></i>
                         </a>
                         <a href="#" class="text-reset">
                             <i class="fab fa-twitter"></i>
@@ -140,30 +179,20 @@
                         <a href="#" class="text-reset">
                             <i class="fab fa-pinterest-p"></i>
                         </a>
-                    </li>  
+                    </li>
                 </ul>
+                <ul class="col-2 list-unstyled px-5">
+                    <li class="font-weight-bold text-uppercase">Resource</li>
+                    <li><a href="#" class="text-reset">Link 1</a></li>
+                    <li><a href="#" class="text-reset">Link 2</a></li>
+                    <li><a href="#" class="text-reset">Link 3</a></li>
+                </ul>
+
+                
             </nav>
-        </div>
-    </footer>
-
-<!--     <div class="row py-3">
-        <div class="row align-items-start" >
-          <div class="col">
-            <img src="img/index.jpeg" class="rounded mx-auto d-block" alt="...">
-          </div>
-          <div class="overflow-scroll" style="height: 220px;">
-            <h2>AFRICA</h2>
-            <p>África es el tercer continente más extenso, tras Asia y América. Está situado entre los océanos Atlántico, 
-                al oeste, e Índico, al este. El mar Mediterráneo lo separa al norte del continente europeo; el punto en 
-                el que los dos continentes se hallan más cercanos es el estrecho de Gibraltar de 14.4 km de ancho. El mar 
-                Rojo lo separa al este de la península arábiga y queda unido a Asia a través del istmo de Suez, en territorio 
-                egipcio. Posee una superficie total de 30 272 922 km² (621 600 km² en masa insular), que representa el 20,4 % 
-                del total de las tierras emergidas del planeta. La población supera los mil trescientos millones de habitantes, 
-                un 15 % del total mundial. El continente se divide en 54 estados soberanos siendo uno de ellos, Egipto, 
-                transcontinental, además de dos estados con reconocimiento limitado y dos territorios dependientes. </p>
-          </div>
         </div> -->
-
+    </footer>
+    </div>
 </body>
 
 </html>
